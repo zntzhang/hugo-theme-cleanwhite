@@ -46,6 +46,7 @@
     <!-- end ogp -->
 
     <meta name="keyword"  content="{{ .Site.Params.keyword }}">
+    <meta name="google-site-verification" content="K8yZVd7oQY5zziuYgoxVtDwSFu_rnMWkzP5I1XY4qpI" />
     <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}">
 
     <title>{{ if .Title }}{{ .Title }} | {{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
@@ -57,7 +58,7 @@
     {{ end }}
     
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" | relURL }}">
 
     <!-- Clean White theme CSS -->
     <link rel="stylesheet" href="{{ "css/hugo-theme-cleanwhite.min.css" | relURL }}">
@@ -66,7 +67,7 @@
     <link rel="stylesheet" href="{{ "css/zanshang.css" | relURL }}">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{ "css/font-awesome.all.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.min.css" | relURL }}">
 
     <!--  Custom CSS  -->
     {{ range .Site.Params.custom_css -}}
@@ -74,7 +75,7 @@
     {{- end }}
 
     <!-- jQuery -->
-    <script src="{{ "js/jquery.min.js" | relURL }}"></script>
+    <script src="{{ "https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js" | relURL }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "js/bootstrap.min.js" | relURL }}"></script>

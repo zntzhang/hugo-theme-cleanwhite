@@ -209,13 +209,13 @@
              </ul>
 		<p class="copyright text-muted">
                     Copyright &copy; {{ .Site.Title }} {{ now.Year }} {{- if .Site.Params.icp }} | {{ with .Site.Params.icp }}{{ . | markdownify }}{{ end }}{{- end}}
-                    <br>
+                   <!-- <br>
                     <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
                         src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
-                    </iframe>
+                    </iframe>-->
                 </p>
             </div>
         </div>
@@ -427,7 +427,7 @@
 
 {{ if or .Page.Params.plantuml .Site.Params.plantuml }}
 <!-- PlantUML -->
-<script src="https://cdn.jsdelivr.net/gh/jmnote/plantuml-encoder@1.2.4/dist/plantuml-encoder.min.js" integrity="sha256-Qsk2KRBCN5qVZX7B+8+2IvQl1Aqc723qV1tBCQaVoqo=" crossorigin="anonymous"></script>
+<script src="https://gcore.jsdelivr.net/gh/jmnote/plantuml-encoder@1.2.4/dist/plantuml-encoder.min.js" integrity="sha256-Qsk2KRBCN5qVZX7B+8+2IvQl1Aqc723qV1tBCQaVoqo=" crossorigin="anonymous"></script>
 <script>
 (function(){
   let plantumlPrefix = "language-plantuml";
